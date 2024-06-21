@@ -30,11 +30,4 @@ This is a simple Todo list application built with vanilla JavaScript. It allows 
 ### Loops
 - Iterating over tasks for filtering and performing bulk actions.
 
-### Class Manipulation
-- Adding or removing classes to style tasks differently based on their state (e.g., completed).
 
-## How to Run the Project
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/your-username/todo-list.git
