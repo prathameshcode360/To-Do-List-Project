@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Todo List</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Todo List</h1>
+      <input type="text" id="input" placeholder="Add a new task" />
+      <button id="addButton">Add</button>
+      <ul id="todoList"></ul>
+      <p>Total tasks: <span id="totalTasks">0</span></p>
+      <div class="select-multiple">
+        <button id="deleteSelectedButton" disabled>Delete Selected</button>
+        <button id="completeSelectedButton" disabled>Complete Selected</button>
+      </div>
+      <div class="task-count">
+        <button id="allTasksButton">All tasks</button>
+        <button id="incompleteTasksButton">Incomplete tasks</button>
+        <button id="completeTasksButton">Complete tasks</button>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
